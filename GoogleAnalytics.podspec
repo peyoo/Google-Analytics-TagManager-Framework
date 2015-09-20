@@ -10,6 +10,7 @@ s.source               = { :git => "https://github.com/peyoo/GoogleAnalytics-Fra
 s.platform             = :ios, '8.0'
 s.requires_arc         = true
 s.libraries            = 'z','sqlite3'
+s.frameworks           = 'SystemConfiguration', 'CoreData'
 s.vendored_libraries   = 'libGoogleAnalytics.a'
 s.public_header_files  = '*.h'
 s.pod_target_xcconfig  = { 'ENABLE_BITCODE' => 'NO'}
