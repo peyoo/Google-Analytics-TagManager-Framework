@@ -13,5 +13,6 @@ s.libraries            = 'z','sqlite3'
 s.vendored_libraries   = 'libGoogleAnalytics.a'
 s.public_header_files  = '*.h'
 s.pod_target_xcconfig  = { 'ENABLE_BITCODE' => 'NO'}
+s.source_files         = '*.{h,m}'
 
 end
