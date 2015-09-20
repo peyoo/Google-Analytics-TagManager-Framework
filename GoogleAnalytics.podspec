@@ -4,7 +4,7 @@ s.version              = "3.13.0"
 s.summary              = "Dynamic framework wrapper for Google Analytics iOS SDK"
 s.homepage             = "https://github.com/peyoo/GoogleAnalytics-Framework"
 s.license              = 'MIT'
-s.author               = { “peyoo” => “peyoo.zh@gmail.com" }
+s.author               = { "peyoo" => "peyoo.zh@gmail.com" }
 
 s.source               = { :git => "https://github.com/peyoo/GoogleAnalytics-Framework", :tag => s.version.to_s }
 s.platform             = :ios, '8.0'
