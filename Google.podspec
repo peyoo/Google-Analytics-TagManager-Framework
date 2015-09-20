@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                 = "Google"
-s.version              = "1.0"
+s.version              = "3.12"
 s.summary              = "Dynamic framework wrapper for Google Analytics & TagManager iOS SDK"
 s.homepage             = "https://github.com/peyoo/GoogleAnalytics-Framework"
 s.license              = 'MIT'
